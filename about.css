@@ -1,4 +1,42 @@
-.flex-container{
-    display: flex;
-    justify-content: space-around;
+.navbar{
+    background-color: rgb(134, 2, 2);
+    color: white;
 }
+
+h2 {
+    font-weight: bold;
+    color: rgb(134, 2, 2);
+    font-size: 80px;
+    text-align: center;
+  }
+
+h1 {
+    font-weight: bold;
+    color: rgb(134, 2, 2);
+    font-size: 80px;
+    text-align: center;
+  }
+
+  .images{
+    width: 50%;
+  }
+.columns{
+padding-left: 10;
+}
+
+p {
+    font-size: 24px;
+  }
+
+p2 {
+    font-size: 35px;
+  }
+p3 {
+    font-size: 35px;
+  }
+p4 {
+    font-size: 35px;
+  }
+p5 {
+    font-size: 35px;
+  }

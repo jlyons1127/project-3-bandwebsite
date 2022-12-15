@@ -1,4 +1,13 @@
+.navbar{
+    background-color: rgb(134, 2, 2);
+    
+}
+
 .video{
     width: 100%;
     aspect-ratio: 16/9;
+}
+p{
+    font-size: 35px;
+    
 }

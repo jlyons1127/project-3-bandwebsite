@@ -1,0 +1,63 @@
+.navbar{
+    background-color: rgb(134, 2, 2);
+    color: white;
+}
+
+.video{
+    width: 95%;
+    aspect-ratio: 16/9;
+}
+
+h1 {
+    font-weight: bold;
+    color: rgb(134, 2, 2);
+    font-size: 80px;
+   
+  }
+
+  h2 {
+    font-weight: bold;
+    color: rgb(134, 2, 2);
+    font-size: 40px;
+    text-align: center;
+   
+  }
+  .video2{
+    align-content: center;
+    width: 100%;
+    aspect-ratio: 16/9;
+   
+}
+  h3 {
+    font-weight: bold;
+    color: rgb(134, 2, 2);
+    font-size: 40px;
+   
+  }
+
+.images{
+    width: 25%;
+    
+}
+p {
+    font-size: 24px;
+  }
+
+  p2{
+    font-size: 35px;
+  }
+  p3{
+    font-size: 35px;
+  }
+  p4{
+    font-size: 35px;
+  }
+.is-flex-direction-row{
+    flex: auto;
+    flex-direction: row
+
+    
+}
+.images2{
+    width: 85%;
+}

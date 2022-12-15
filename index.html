@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+  />
+  <link rel="stylesheet" href="home.css" />
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+        <img
+          src="images/BTR-BLUE-LOGO_250x@2x.png"
+          width="100"
+          height="100"
+        />
+      </a>
+
+      <a
+        role="button"
+        class="navbar-burger"
+        aria-label="menu"
+        aria-expanded="false"
+        data-target="navbarBasicExample"
+      >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="index.html"> Home </a>
+        <a class="navbar-item" href="about.html"> About </a>
+        <hr class="navbar-divider" />
+        <a class="navbar-item" href="music-videos.html"> Music Videos </a>
+        <a class="navbar-item" href="discography.html"> Discography </a>
+        <a class="navbar-item" href="tour.html"> Tour </a>
+      </div>
+    </div>
+  </nav>
+  <body>
+    <h1> Latest news!!</h1>
+    <div class="columns">
+      <div class="column">
+      <iframe class="video" src="https://www.youtube.com/embed/0lwtI4VjfGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="column">
+        <article>
+          <h2>LATIN AMERICA TOUR 2023</h2>
+          <p>Big Time Rush set to go on tour in 2023 in south america!!</p>
+        </article>
+        </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <img src="images/big-time-rush-kendall-schmidt-proposes-to-girlfriend-mica-on-tour.jpeg" alt="kendal and girlfriend">
+      </div>
+      <div class="column">
+        <article>
+          <h2>Kendal proposes!</h2>
+          <p>Kendall Schmidt is taking himself off of the market!
+
+            The Big Time Rush singer reveals that he proposed to his longtime girlfriend Mica in New York City.
+            
+            “My heart and soul. I’ll love you forever,” he captioned a proposal photo.
+            
+            It appears as through Kendall took his love to a theatre to pop the question on stage. So cute!</p>
+          </article>
+      </div>
+    </div>
+    
+  <div class="columns">
+    <div class="column">
+    <h2> NEW Music release</h2>  
+    <iframe class="video2"  src="https://www.youtube.com/embed/7iWV5DdVUMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+    <p4>
+      Paralyzed out now!!
+    </p4>
+  </div>
+    <div class="column">
+      <h3>Bands social links</h3>
+      
+      <img class=images2 src="images/btr gang.jpeg">
+      <p3> Instagram:</p3>
+      <p2>
+        <a href="https://www.instagram.com/bigtimerush/?hl=en"> @Bigtimerush 
+         
+      </p2>
+
+    </div>
+  </div>
+   
+
+
+<div class="columns">
+  <div class="column">   
+    <a href="">
+     <img src="images/spotify-2-logo-png-transparent.png" alt="spotify logo"></a>
+  </div>
+  <div class="column">    
+    <a href="">
+    <img src="images/hd-youtube-logo-png-transparent-background-20.png" alt="youtube logo"></a>
+  </div>
+  <div class="column">   
+    <a href="">
+     <img src="images/pngegg.png" alt="apple music logo"></a>
+   </div>
+</div>
+
+
+
+ 
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(
+          document.querySelectorAll(".navbar-burger"),
+          0
+        );
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach((el) => {
+          el.addEventListener("click", () => {
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle("is-active");
+            $target.classList.toggle("is-active");
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

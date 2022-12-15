@@ -4,7 +4,130 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>BIG TIME RUSH</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="discography.css" />
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item">
+          <img
+            src="images/BTR-BLUE-LOGO_250x@2x.png"
+            width="100"
+            height="100"
+          />
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="index.html"> Home </a>
+          <a class="navbar-item" href="about.html"> About </a>
+          <hr class="navbar-divider" />
+          <a class="navbar-item" href="music-videos.html"> Music Videos </a>
+          <a class="navbar-item" href="discography.html"> Discography </a>
+          <a class="navbar-item" href="tour.html"> Tour </a>
+        </div>
+      </div>
+    </nav>
   </head>
-  <body></body>
+
+  <body>
+    <div class="columns">
+      <div class="column">
+        <img class="images" src="images/BTR2010.jpg" alt="btr album 2010" />
+        <p>Big time rush 2010</p>
+      </div>
+      <div class="column">
+        <img
+          class="images"
+          src="images/bestofseason1.jpg"
+          alt="best of season one bigtimerush"
+        />
+        <p2>Best of Season One 2010</p2>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <img class="images" src="images/elevate2011.jpg" alt="btr album 2011" />
+        <p3>Elevate 2011</p3>
+      </div>
+      <div class="column">
+        <img
+          class="images"
+          src="images/Big_Time_Movie_Soundtrack_EP2012.jpeg"
+          alt="btr move album 2012"
+        />
+        <p4>Big Time Movie Soundtrack 2012</p4>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <img class="images" src="images/24:72013.jpg" alt="btr album 2013" />
+        <p5>24/7 2013</p5>
+      </div>
+      <div class="column">
+        <img
+          class="images"
+          src="images/ultamtefanedition2016.jpeg"
+          alt="btr album 2016"
+        />
+        <p6> Ultamate fan edition 2016</p6>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <img
+          class="images"
+          src="images/2016greatesthits.jpg"
+          alt="btr album 2016"
+        />
+        <p7> Greatest Hits 2016</p7>
+      </div>
+      <div class="column">
+        <img
+          class="images"
+          src="images/paralyzed2022.jpeg"
+          alt="btr album 2022"
+        />
+        <p8> Paralyzed 2022</p8>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(
+          document.querySelectorAll(".navbar-burger"),
+          0
+        );
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach((el) => {
+          el.addEventListener("click", () => {
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle("is-active");
+            $target.classList.toggle("is-active");
+          });
+        });
+      });
+    </script>
+  </body>
 </html>
